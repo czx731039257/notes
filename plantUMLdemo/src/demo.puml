@@ -1,0 +1,12 @@
+@startuml
+
+
+autonumber  3
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+note right : asdasd
+...5minutes latter...
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
