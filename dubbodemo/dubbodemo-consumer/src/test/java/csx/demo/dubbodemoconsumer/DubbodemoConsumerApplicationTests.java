@@ -22,4 +22,10 @@ class DubbodemoConsumerApplicationTests {
 
     }
 
+    @Test
+    void test1(){
+        System.out.println("test1");
+    }
+
+
 }
