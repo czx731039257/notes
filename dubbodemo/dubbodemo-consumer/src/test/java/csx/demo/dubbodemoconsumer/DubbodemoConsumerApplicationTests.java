@@ -2,7 +2,7 @@ package csx.demo.dubbodemoconsumer;
 
 import csx.demo.dubbo.dubbodemofacade.MyService;
 import org.apache.dubbo.config.annotation.Reference;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
@@ -14,6 +14,12 @@ class DubbodemoConsumerApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(myService.getusername("csx"));
+    }
+
+
+    @Test
+    void test1(){
+
     }
 
 }
