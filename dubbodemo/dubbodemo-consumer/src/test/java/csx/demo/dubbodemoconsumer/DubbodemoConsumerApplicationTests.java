@@ -18,8 +18,8 @@ class DubbodemoConsumerApplicationTests {
 
 
     @Test
-    void test1(){
-
+    void test2(){
+        System.out.println("ddd");
     }
 
     @Test
