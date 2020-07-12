@@ -16,4 +16,10 @@ class DubbodemoConsumerApplicationTests {
         System.out.println(myService.getusername("csx"));
     }
 
+    @Test
+    void test1(){
+        System.out.println("test1");
+    }
+
+
 }
